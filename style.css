@@ -60,7 +60,7 @@ a:hover
 #sidebar
 {
   position: fixed;
-  width: 300px;
+  width: 200px;
   left: 0;
   top: 0;
   bottom: 0;
@@ -70,7 +70,7 @@ a:hover
 }
 #page-content
 {
-  margin-left: 300px;
+  margin-left: 200px;
 }
 #sidebar a
 {
