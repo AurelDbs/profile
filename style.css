@@ -64,6 +64,7 @@ a:hover
   left: 0;
   top: 0;
   bottom: 0;
+  background-color: #394249;
 }
 #page-content
 {
@@ -141,7 +142,7 @@ section
   color: #aaa;
 }
 /*************RESPONSIVE*************/
-@media (max-width: 960px) {
+@media (max-width: 1200px) {
   /* For a screen < 960px, this CSS will be read */
   .container
   {
