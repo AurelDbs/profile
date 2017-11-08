@@ -1,0 +1,152 @@
+/*********GENERAL*********/
+body
+{
+  background-color: #EAEAEB;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #7d7d7d;
+  font-size: 15px;
+  line-height: 1.6em;
+  margin: 0 auto;
+}
+.card
+{
+  background-color: #fefefe;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 2px #ddd;
+}
+h1
+{
+  color: #d55;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 2em;
+}
+h2, h3
+{
+  color: #666;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+a
+{
+  text-decoration: none;
+  color: #aaa;
+}
+a:hover
+{
+  color: #888;
+}
+
+.list-inline
+{
+  padding-left: 0px;
+  list-style: none;
+  text-align: center
+}
+.list-inline > li
+{
+  display: inline-block;
+  padding: 0px 20px;
+}
+.container
+{
+  width: 500px;
+  margin: 20px auto;
+}
+
+/***********PRESENTATION***********/
+#photo_profile
+{
+  border-radius: 50%;
+  width: 150px;
+  border: 3px solid rgba(200, 200, 200, 0.5);
+}
+#presentation
+{
+  text-align: center;
+}
+#go_to_see
+{
+  color: #fefefe;
+  background-color:  rgba(221, 85, 85, 0.8);
+  border-radius: 2px;
+  padding: 10px;
+}
+#go_to_see:hover
+{
+  background-color:  rgb(221, 85, 85);
+}
+/*************PROJECT************/
+#project img
+{
+  width: 100%;
+}
+#project
+{
+  display: flex;
+}
+#project_img
+{
+  flex: 0 0 35%;
+  margin-right: 20px;
+}
+#project_description
+{
+  flex: 1 1 auto;
+}
+
+/**************FAVORITES MOVIES SECTION**********/
+section img
+{
+  width: 100%;
+}
+section
+{
+  display: flex;
+}
+.flex_movies_img
+{
+  flex: 0 0 35%;
+  margin-right: 20px;
+}
+.flex_movies_synopsis
+{
+  flex: 1 1 auto;
+}
+#about
+{
+  text-align: center;
+}
+#about .fa
+{
+  padding: 20px
+}
+#about .fa:hover
+{
+  color: #aaa;
+}
+/*************RESPONSIVE*************/
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container
+  {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container
+  {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container
+  {
+    width: 300px;
+  }
+}
