@@ -66,15 +66,16 @@ a:hover
   bottom: 0;
   background-color: #394249;
   text-align: center;
+  padding-top: 30px;
 }
 #page-content
 {
   margin-left: 300px;
 }
-#sidebar a i
+#sidebar a
 {
   display: block;
-  padding: 20px;
+  padding: 30px;
 }
 /***********PRESENTATION***********/
 #photo_profile
